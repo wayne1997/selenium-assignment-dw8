@@ -36,7 +36,7 @@ services:
     stdin_open: true
     tty: true
     volumes:
-      - ./tests:/home/selenium/mercadolibre_test
+      - ./mercadolibre_test:/home/selenium/mercadolibre_test
     depends_on:
       - selenium
       - novnc
